@@ -1,0 +1,13 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+            "name": "PowerShell: Install Creatio Studio",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "args": ["-AppName studio -FolderName '7.18.5.1500_Studio_Softkey_PostgreSQL_ENU' -dbUser Supervisor -dbPassword Supervisor -port 7010 -redisDbNum 1 -redisPort 6379 -dbFileName 'BPMonline7185Studio.backup' -dbPort 5432"],
+            "cwd": "${file}"
+        }
+	]
+}
